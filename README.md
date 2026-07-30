@@ -264,6 +264,7 @@ Il progetto utilizza una struttura semplificata ispirata allo schema a stella (s
 - taxi_trips: contiene le informazioni relative a ciascuna corsa, inclusi ricavi, distanza percorsa, dati temporali e identificativi delle zone di pickup.
  
 **Tabelle Dimensionali**
+  
 - taxi_zones: contiene le informazioni geografiche delle zone taxi di New York, inclusi Borough, Zone e Service Zone.
 - calendar: tabella calendario utilizzata per le analisi temporali e le misure di Time Intelligence.
 
