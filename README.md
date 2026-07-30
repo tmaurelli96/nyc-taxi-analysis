@@ -125,7 +125,14 @@ The project is built on a simplified star-schema structure composed of:
  
 ### Data Model Diagram
 
-images/data_model.png
+![ages/data_model.png
+
+### Relationships
+ 
+- taxi_trips[PULocationID] → taxi_zones[LocationID]
+- calendar[Date] → taxi_trips[Pickup Date]
+  
+This structure enables geographic analysis, trend analysis, ranking calculations and time intelligence measures.
 
 ---
 
@@ -247,6 +254,32 @@ La dashboard Power BI fornisce una vista executive dei principali KPI operativi:
 - Geographic Analytics
 
 ---
+## Modello Dati 
+Il progetto utilizza una struttura semplificata ispirata allo schema a stella (star schema), progettata per supportare analisi operative, geografiche e temporali.
+ 
+### Tabelle Principali
+ 
+**Tabella dei Fatti**
+ 
+- taxi_trips: contiene le informazioni relative a ciascuna corsa, inclusi ricavi, distanza percorsa, dati temporali e identificativi delle zone di pickup.
+ 
+**Tabelle Dimensionali**
+- taxi_zones: contiene le informazioni geografiche delle zone taxi di New York, inclusi Borough, Zone e Service Zone.
+- calendar: tabella calendario utilizzata per le analisi temporali e le misure di Time Intelligence.
+
+ 
+
+### Diagramma del Modello Dati
+ 
+![ages/data_model.png
+
+### Relazioni
+
+- taxi_trips[PULocationID] → taxi_zones[LocationID]
+- calendar[Date] → taxi_trips[Pickup Date]
+ 
+Questa struttura consente di eseguire analisi geografiche, analisi dei trend temporali, classifiche delle zone più performanti e misure avanzate di Business Intelligence tramite Power BI e DAX.
+
 
 ## Repository Structure
 
