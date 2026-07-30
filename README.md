@@ -116,6 +116,17 @@ The Power BI dashboard provides a business-oriented view of:
 - Geographic Analysis
 - Time Series Analysis
 
+## Data Model
+
+The project is built on a simplified star-schema structure composed of:
+- taxi_trips: fact table containing trip-level information
+- taxi_zones: dimension table containing geographic information
+- calendar: date dimension used for time intelligence
+ 
+### Data Model Diagram
+
+images/data_model.png
+
 ---
 
 ## 🇮🇹 Italiano
