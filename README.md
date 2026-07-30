@@ -125,7 +125,7 @@ The project is built on a simplified star-schema structure composed of:
  
 ### Data Model Diagram
 
-![ages/data_model.png
+<img width="227" height="101" alt="data_model" src="https://github.com/user-attachments/assets/c122a8e1-8309-4e85-bc8e-8093ea5b69ca" />
 
 ### Relationships
  
@@ -271,7 +271,8 @@ Il progetto utilizza una struttura semplificata ispirata allo schema a stella (s
 
 ### Diagramma del Modello Dati
  
-![ages/data_model.png
+<img width="227" height="101" alt="data_model" src="https://github.com/user-attachments/assets/904db534-d458-46ec-a388-5bae5a4739d4" />
+
 
 ### Relazioni
 
